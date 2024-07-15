@@ -1,0 +1,25 @@
+body{ /* Selector de elementos, llama a todos los body, o a todo lo que esté dentro del "body" en este caso. Pero yo también podría usar el selector de header o de aside o del elemento que sea.*/
+
+}
+
+h2{
+    color:blueviolet; /* acá pongo el nombre de la propiedad y pongo ":", pongo el valor que quiero que tenga esa propiedad en este caso para color, es red, y cierro con ";" */
+    font-size:50px;
+}
+
+.subtitulo-especial{ /* Selector de clase. Esto me pone en ese formato los h2 que tengan el class="subtitulo-especial", es decir que a diferencia del anterior, que s para todos los h2, éste es solo para los h2 que tengan ese class */
+    color:blue;
+    font-size:20px;
+}
+
+*{  /* Selector Universal.Este es para todo en general, sea para h1;h2;h3;h4 o cualquiera que tenga, más allá del class que yo podría llegar a tener en algún class */
+    font-family:Georgia;
+}
+
+.subtitulo-especial{ /* Selector de clases */
+    color:darkkhaki;
+}
+
+#super-especial{ /* Selector de ID´s, pongo el # y el nombre del ID al lado, en este caso es super-especial */ 
+font-size: 10px;
+}
