@@ -1,0 +1,68 @@
+@import url();
+*{
+    font-family:"Poppins", sans-serif;
+    box-sizing: border-box ;
+}
+
+.caja{
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    margin-top: 30px;
+    color: white;
+    padding-left: 30px;
+    border: 10px solid red;
+}
+
+h1{
+    background-color: #ff00b7;
+}
+
+a{
+    background-color: red;
+    width: 400px;
+    display: block;
+}
+
+span{
+    background-color: blue;
+}
+
+.input{
+    width: 300px;
+}
+
+.logo{
+    background-color: aqua;
+    width: 50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+    height:50px;
+}
+
+header{
+    background-color: blueviolet;
+    color: white;
+}
+
+nav{
+    text-align: end;
+}
+
+.link{
+    display: inline-block; /* Uso esta etiqueta para poder usar el width para estas etiquetas */
+    background-color: transparent;
+    background-color: rgb(158, 158, 237);
+    width: 100px;
+    text-align: center;
+    height:50px;
+}
+
+.caja-resultado{
+    color: #555555;
+    background-color: #EEEEEE;
+    width: 700px;
+    padding: 30px 15px;
+    font-size: 15px;
+    border: 5px solid black;
+    border-radius: 5px; /* me redondea los bordes */
+    text-align: center;
+}
