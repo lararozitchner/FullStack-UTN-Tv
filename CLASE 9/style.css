@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+.colors-cards{
+    display: flex;
+    gap: 20px;
+    width: calc(250px*4 + 20px*3 + 20px*2 ); /* ancho cartas + 3 gaps (3 espacios) + 2 paddings  */
+    padding: 0 20px;
+    flex-wrap: wrap; 
+}
+
+.color-card{
+    display: flex;
+    flex-direction: column;
+    width: 250px; /* Le pongo el ancho a la carta total porque sino, cuando pongo el space-between entre el button y el time, se me separan en toda la página. Porque el space between toma el ancho total de la pagina, y no el de la carta (en el caso que yo no aclarase acá el ancho)  */
+    gap: 15px; /* hace que haya 15px entre la parte de arriba y la parte de abajo (en este caso es arriba y abajo porque el flex-diection es column, me sirve para espaciar los hijos u elementos de un padre*/
+    
+}
+
+.color-card .colors{
+    display: flex;
+    flex-direction:column;
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    border-radius: 15px;
+    overflow: hidden; /* Esto lo uso para que los hijos que sobrepasan al tamaño del padre, se acomoden al border-radius que yo había puesto */
+}
+
+.color-card .colors .color:nth-child(1){
+background-color: blue;
+width: 100%; /* Es el ancho */
+height: 35%; /* Es el alto que ocupa ese color de toda la carta */
+}
+
+.color-card .colors .color:nth-child(2){
+    background-color: rgb(0, 255, 119);
+    width: 100%; /* Es el ancho */
+    height: 20%; /* Es el alto que ocupa ese color de toda la carta */
+}
+
+.color-card .colors .color:nth-child(3){
+    background-color: rgb(249, 217, 252);
+    width: 100%; /* Es el ancho */
+    height: 20%; /* Es el alto que ocupa ese color de toda la carta */
+}
+
+.color-card .color-card-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+
+.color-card .color-card-control .btn-like{
+    height:30px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center ;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid rgba(0 , 0 , 0 , 0.132);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.color-card .color-card-control .time{
+    color: #E6E6E6;
+    font-size: 14px;
+    
+}
+
+
