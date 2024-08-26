@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     width: 250px; /* Le pongo el ancho a la carta total porque sino, cuando pongo el space-between entre el button y el time, se me separan en toda la página. Porque el space between toma el ancho total de la pagina, y no el de la carta (en el caso que yo no aclarase acá el ancho)  */
-    gap: 15px; /* hace que haya 15px entre la parte de arriba y la parte de abajo (en este caso es arriba y abajo porque el flex-diection es column, me sirve para espaciar los hijos u elementos de un padre*/
+    gap: 20px; /* hace que haya 15px entre la parte de arriba y la parte de abajo (en este caso es arriba y abajo porque el flex-diection es column, me sirve para espaciar los hijos u elementos de un padre*/
     
 }
 
@@ -54,6 +54,7 @@ height: 35%; /* Es el alto que ocupa ese color de toda la carta */
 .color-card .color-card-control{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     padding: 2px;
 }
@@ -77,6 +78,7 @@ height: 35%; /* Es el alto que ocupa ese color de toda la carta */
 .color-card .color-card-control .time{
     color: #E6E6E6;
     font-size: 14px;
+    padding: 7px;
     
 }
 

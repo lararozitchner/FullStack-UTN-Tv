@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+    font-family: "DM Sans", sans-serif;
+    padding:0 5px;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+:root{
+    --color-texto: #3A3B3C;
+    --fuente-principal: "DM Sans" , sans-serif;
+}
+
+.logo{
+    gap:10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.logo .selector-lenguaje{
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+
+.logo .selector-lenguaje .pais{
+    height:60px;
+    width: 70px;
+}
+
+.logo .selector-lenguaje .idioma{
+    font-family: var(--fuente-principal) ;
+    color: var(--color-texto);
+}
+
+nav .links-container{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav .links-container .link{
+    text-decoration: none;
+}
+
+
